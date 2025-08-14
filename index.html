@@ -13,7 +13,7 @@
     <script defer src="script.js"></script>
     <title>Ping-PONG Game</title>
   </head>
-  <body>
+  <body oncontextmenu = "return false">
     <h1 class="title">PONG</h1>
     <span class="score player1Score" id="player1Score">0</span>
     <span class="score player2Score" id="player2Score">0</span>
@@ -24,7 +24,7 @@
       <div id="ball" class="ball"></div>
       <div class="net"></div>
     </div>
-    <img src="assets/machine.png" alt="Arcade Pong Machine" class="bg" />
+    <img src="assets/machine.png" alt="Arcade Pong Machine" class="bg" loading = "lazy"/>
     <div class="vignett"></div>
     <audio src=/assets/paddle.wav" id="paddleSound"></audio>
     <audio src="assets/wall.wav" id="wallSound"></audio>
